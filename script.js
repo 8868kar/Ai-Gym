@@ -184,9 +184,9 @@ else if(message.includes("open whatsapp")){
   window.open("whatsapp://")
   
 }
-else if(message.includes("open Linkedin")){
-  speak("opening Linkedin..")
-  window.open("Linkedin://")
+else if(message.includes("open linkedin")){
+  speak("opening linkedin..")
+  window.open("linkedin://")
 }
 else if(message.includes("time")){
 let time=new Date().toLocaleString(undefined,{hour:"numeric",minute:"numeric"})
@@ -217,3 +217,4 @@ speakpage.style.display="flex";
 
 
   
+
